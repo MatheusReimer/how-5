@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cuidados com Amor — Cuidadora de Idosos</title>
+<title>Larissa Welter — Cuidadora de Idosos</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -14,7 +14,6 @@
     --verde-medio: #639922;
     --creme: #FAF8F3;
     --creme-escuro: #F0EDE4;
-    --marrom: #5C4A32;
     --marrom-claro: #A08060;
     --texto: #2C2A20;
     --texto-suave: #6B6050;
@@ -33,8 +32,7 @@
   /* TRUST BAR */
   .trust-bar {
     position: fixed;
-    top: 64px;
-    left: 0; right: 0;
+    top: 64px; left: 0; right: 0;
     z-index: 99;
     background: var(--verde);
     overflow: hidden;
@@ -47,7 +45,7 @@
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    animation: marquee 28s linear infinite;
+    animation: marquee 32s linear infinite;
     white-space: nowrap;
     padding-left: 100%;
   }
@@ -160,9 +158,7 @@
     line-height: 1.8;
   }
 
-  .hero-botoes {
-    display: flex; gap: 1rem; flex-wrap: wrap;
-  }
+  .hero-botoes { display: flex; gap: 1rem; flex-wrap: wrap; }
 
   .btn-primario {
     background: var(--verde);
@@ -211,7 +207,6 @@
   .hero-card-img {
     width: 100%;
     height: 280px;
-    position: relative;
     overflow: hidden;
   }
 
@@ -222,9 +217,7 @@
     object-position: center top;
   }
 
-  .hero-card-info {
-    padding: 1.5rem;
-  }
+  .hero-card-info { padding: 1.5rem; }
 
   .hero-card-info h3 {
     font-family: 'Playfair Display', serif;
@@ -239,9 +232,7 @@
     margin-bottom: 1rem;
   }
 
-  .hero-badges {
-    display: flex; gap: 8px; flex-wrap: wrap;
-  }
+  .hero-badges { display: flex; gap: 8px; flex-wrap: wrap; }
 
   .badge {
     background: var(--verde-claro);
@@ -261,9 +252,7 @@
     border-top: 1px solid var(--creme-escuro);
   }
 
-  .stat {
-    text-align: center;
-  }
+  .stat { text-align: center; }
 
   .stat-num {
     font-family: 'Playfair Display', serif;
@@ -281,19 +270,11 @@
   }
 
   /* SEÇÕES */
-  section {
-    padding: 5rem 2rem;
-  }
+  section { padding: 5rem 2rem; }
 
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
+  .container { max-width: 1100px; margin: 0 auto; }
 
-  .secao-titulo {
-    text-align: center;
-    margin-bottom: 3.5rem;
-  }
+  .secao-titulo { text-align: center; margin-bottom: 3.5rem; }
 
   .secao-titulo .label {
     display: inline-block;
@@ -332,9 +313,7 @@
     align-items: center;
   }
 
-  .sobre-visual {
-    position: relative;
-  }
+  .sobre-visual { position: relative; }
 
   .sobre-foto {
     width: 100%;
@@ -368,10 +347,7 @@
     color: var(--verde);
   }
 
-  .sobre-detalhe span {
-    font-size: 0.75rem;
-    color: var(--texto-suave);
-  }
+  .sobre-detalhe span { font-size: 0.75rem; color: var(--texto-suave); }
 
   .sobre-texto h2 {
     font-family: 'Playfair Display', serif;
@@ -395,20 +371,13 @@
     gap: 1rem;
   }
 
-  .diferencial {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+  .diferencial { display: flex; align-items: flex-start; gap: 1rem; }
 
   .diferencial-icone {
-    width: 40px;
-    height: 40px;
+    width: 40px; height: 40px;
     border-radius: 10px;
     background: var(--verde-claro);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     font-size: 1.1rem;
     flex-shrink: 0;
   }
@@ -421,10 +390,7 @@
     margin-bottom: 2px;
   }
 
-  .diferencial-texto span {
-    font-size: 0.82rem;
-    color: var(--texto-suave);
-  }
+  .diferencial-texto span { font-size: 0.82rem; color: var(--texto-suave); }
 
   /* SERVIÇOS */
   .servicos { background: var(--creme); }
@@ -448,11 +414,7 @@
     box-shadow: 0 12px 40px rgba(60,80,30,0.1);
   }
 
-  .servico-icone {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    display: block;
-  }
+  .servico-icone { font-size: 2rem; margin-bottom: 1rem; display: block; }
 
   .servico-card h3 {
     font-family: 'Playfair Display', serif;
@@ -508,36 +470,21 @@
     font-style: italic;
   }
 
-  .depo-autor {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  .depo-autor { display: flex; align-items: center; gap: 12px; }
 
   .depo-avatar {
-    width: 42px;
-    height: 42px;
+    width: 42px; height: 42px;
     border-radius: 50%;
     background: rgba(255,255,255,0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     font-weight: 500;
     font-size: 0.85rem;
     color: white;
     flex-shrink: 0;
   }
 
-  .depo-nome {
-    font-size: 0.88rem;
-    font-weight: 500;
-    color: white;
-  }
-
-  .depo-rel {
-    font-size: 0.75rem;
-    color: rgba(255,255,255,0.6);
-  }
+  .depo-nome { font-size: 0.88rem; font-weight: 500; color: white; }
+  .depo-rel { font-size: 0.75rem; color: rgba(255,255,255,0.6); }
 
   .estrelas {
     color: #FAC775;
@@ -571,26 +518,15 @@
     line-height: 1.8;
   }
 
-  .contato-itens {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
+  .contato-itens { display: flex; flex-direction: column; gap: 1.2rem; }
 
-  .contato-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
+  .contato-item { display: flex; align-items: center; gap: 1rem; }
 
   .contato-item-icone {
-    width: 46px;
-    height: 46px;
+    width: 46px; height: 46px;
     border-radius: 12px;
     background: var(--verde-claro);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     font-size: 1.1rem;
     flex-shrink: 0;
   }
@@ -602,10 +538,7 @@
     color: var(--texto);
   }
 
-  .contato-item-texto span {
-    font-size: 0.82rem;
-    color: var(--texto-suave);
-  }
+  .contato-item-texto span { font-size: 0.82rem; color: var(--texto-suave); }
 
   .contato-form {
     background: var(--creme);
@@ -621,9 +554,7 @@
     margin-bottom: 1.5rem;
   }
 
-  .form-grupo {
-    margin-bottom: 1.2rem;
-  }
+  .form-grupo { margin-bottom: 1.2rem; }
 
   .form-grupo label {
     display: block;
@@ -650,14 +581,9 @@
 
   .form-grupo input:focus,
   .form-grupo textarea:focus,
-  .form-grupo select:focus {
-    border-color: var(--verde);
-  }
+  .form-grupo select:focus { border-color: var(--verde); }
 
-  .form-grupo textarea {
-    resize: vertical;
-    min-height: 100px;
-  }
+  .form-grupo textarea { resize: vertical; min-height: 100px; }
 
   .btn-enviar {
     width: 100%;
@@ -709,10 +635,7 @@
     margin-bottom: 0.5rem;
   }
 
-  footer p {
-    font-size: 0.82rem;
-    font-weight: 300;
-  }
+  footer p { font-size: 0.82rem; font-weight: 300; }
 
   footer .footer-links {
     display: flex;
@@ -720,6 +643,8 @@
     gap: 2rem;
     margin-top: 1.5rem;
     flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
   }
 
   footer a {
@@ -737,7 +662,7 @@
 
     .hero {
       grid-template-columns: 1fr;
-      padding: 100px 1.5rem 3rem;
+      padding: 110px 1.5rem 3rem;
       text-align: center;
     }
 
@@ -760,22 +685,24 @@
 <!-- BARRA DE DESTAQUE -->
 <div class="trust-bar">
   <div class="trust-bar-inner">
-    <span>✅ MEI Formalizada</span>
+    <span>✅ MEI Formalizada — CNPJ 52.292.673/0001-66</span>
     <span class="sep">·</span>
     <span>🏥 Emite recibo e contrato</span>
     <span class="sep">·</span>
-    <span>📍 Itajai e região</span>
+    <span>📍 Itapema e região</span>
     <span class="sep">·</span>
     <span>🕐 Atendimento 24h disponível</span>
     <span class="sep">·</span>
     <span>💬 Resposta rápida pelo WhatsApp</span>
+    <span class="sep">·</span>
+    <span>⭐ 6 anos de experiência</span>
   </div>
 </div>
 
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    Cuidados com Amor
+    Larissa Welter
     <span>Cuidadora de Idosos</span>
   </div>
   <ul class="nav-links">
@@ -792,16 +719,16 @@
     <h1>Cuidado <em>humano</em> para quem você mais ama</h1>
     <p>Profissional especializada em cuidados com idosos, oferecendo atenção, carinho e dedicação no conforto do lar. Cada família merece a tranquilidade de saber que seu familiar está em boas mãos.</p>
     <div class="hero-botoes">
-      <a href="#contato" class="btn-primario">📞 Falar agora</a>
+      <a href="https://wa.me/5548996884845" class="btn-primario">📞 Falar agora</a>
       <a href="#servicos" class="btn-secundario">Ver serviços</a>
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-num">[ X ]</div>
+        <div class="stat-num">6+</div>
         <div class="stat-label">Anos de experiência</div>
       </div>
       <div class="stat">
-        <div class="stat-num">[ X ]</div>
+        <div class="stat-num">50+</div>
         <div class="stat-label">Famílias atendidas</div>
       </div>
       <div class="stat">
@@ -813,21 +740,22 @@
   <div class="hero-visual">
     <div class="hero-card">
       <div class="hero-card-img">
-        <img src="https://media.istockphoto.com/id/2214229139/photo/comforting-hand-supporting-the-old-man.webp?a=1&b=1&s=612x612&w=0&k=20&c=x8gd4Y4SeV3-veaNipRdbBANBP691PiVgAZoRdwkRYk=" alt="Cuidadora de idosos" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1559839914-17aae19cec71?w=480&q=80" alt="Cuidadora de idosos" loading="lazy">
       </div>
       <div class="hero-card-info">
-        <h3>[ Nome  ]</h3>
-        <p>Cuidadora de Idosos · CNPJ [ 00.000.000/0001-00 ]</p>
+        <h3>Larissa Welter</h3>
+        <p>Cuidadora de Idosos · CNPJ 52.292.673/0001-66</p>
         <div class="hero-badges">
           <span class="badge">MEI Formalizada</span>
           <span class="badge">Plantão disponível</span>
-          <span class="badge">Itajai/SC</span>
+          <span class="badge">Itapema/SC</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- SOBRE -->
 <section class="sobre" id="sobre">
   <div class="container">
     <div class="sobre-grid">
@@ -836,34 +764,34 @@
           <img src="https://images.unsplash.com/photo-1576765608866-5b51046452be?w=600&q=80" alt="Cuidado com idosos" loading="lazy">
         </div>
         <div class="sobre-detalhe">
-          <strong>[ X ]+ anos</strong>
+          <strong>6+ anos</strong>
           <span>de experiência</span>
         </div>
       </div>
       <div class="sobre-texto">
         <h2>Quem cuida com amor faz a diferença</h2>
-        <p>[ Algo ]</p>
-        <p>Atendo famílias em Itajai e região, sempre com compromisso, responsabilidade e muito carinho por cada pessoa sob meus cuidados.</p>
+        <p>O serviço surgiu a partir da afinidade pessoal com a área da saúde, aliada a habilidades relacionadas ao cuidado, atenção e ao bem-estar com o próximo. O desenvolvimento da atividade profissional deu-se a partir de experiências pessoais e práticas adquiridas ao longo do tempo, o que possibilitou a construção de um atendimento pautado na humanização, na ética e na individualização dos cuidados prestados.</p>
+        <p>Atendo famílias em Itapema e região, sempre com compromisso, responsabilidade e muito carinho por cada pessoa sob meus cuidados — tanto em ambiente domiciliar quanto hospitalar.</p>
         <div class="sobre-diferenciais">
           <div class="diferencial">
             <div class="diferencial-icone">✅</div>
             <div class="diferencial-texto">
               <strong>MEI formalizada</strong>
-              <span>Emite recibo, contrato e nota fiscal</span>
+              <span>Emite recibo, contrato — CNPJ 52.292.673/0001-66</span>
             </div>
           </div>
           <div class="diferencial">
             <div class="diferencial-icone">🏥</div>
             <div class="diferencial-texto">
-              <strong>[ Formação / Certificação ]</strong>
-              <span>[ Ex: Curso de Cuidador de Idosos — SENAC 2019 ]</span>
+              <strong>Atendimento domiciliar e hospitalar</strong>
+              <span>Cuidados adaptados ao ambiente e às necessidades do paciente</span>
             </div>
           </div>
           <div class="diferencial">
             <div class="diferencial-icone">💬</div>
             <div class="diferencial-texto">
               <strong>Comunicação com a família</strong>
-              <span>Atualizações diárias sobre o estado do idoso</span>
+              <span>Atualizações constantes sobre o estado de saúde do idoso</span>
             </div>
           </div>
         </div>
@@ -872,6 +800,7 @@
   </div>
 </section>
 
+<!-- SERVIÇOS -->
 <section class="servicos" id="servicos">
   <div class="container">
     <div class="secao-titulo">
@@ -882,9 +811,9 @@
     <div class="servicos-grid">
       <div class="servico-card">
         <span class="servico-icone">🌅</span>
-        <h3>Cuidado diário</h3>
-        <p>Acompanhamento completo durante o dia, incluindo higiene pessoal, alimentação, medicação e atividades de estimulação.</p>
-        <span class="servico-tag">Segunda a sexta</span>
+        <h3>Cuidados pessoais</h3>
+        <p>Higiene pessoal, alimentação, administração de medicação e acompanhamento das necessidades diárias do idoso.</p>
+        <span class="servico-tag">Essencial</span>
       </div>
       <div class="servico-card">
         <span class="servico-icone">🌙</span>
@@ -895,31 +824,32 @@
       <div class="servico-card">
         <span class="servico-icone">🏥</span>
         <h3>Acompanhamento médico</h3>
-        <p>Acompanhamento em consultas, exames e internações hospitalares. Comunicação direta com a equipe médica.</p>
-        <span class="servico-tag">Itajai e região</span>
-      </div>
-      <div class="servico-card">
-        <span class="servico-icone">💊</span>
-        <h3>Controle de medicação</h3>
-        <p>Administração e controle rigoroso de medicamentos no horário correto, com registro e comunicação à família.</p>
-        <span class="servico-tag">Incluído</span>
+        <p>Acompanhamento em consultas, exames e internações hospitalares, com comunicação direta com a equipe médica e a família.</p>
+        <span class="servico-tag">Itapema e região</span>
       </div>
       <div class="servico-card">
         <span class="servico-icone">🧘</span>
         <h3>Estimulação cognitiva</h3>
-        <p>Atividades de leitura, conversas, jogos e exercícios mentais para manter o idoso ativo e estimulado.</p>
+        <p>Atividades de leitura, conversas, jogos e exercícios mentais para manter o idoso ativo, estimulado e com qualidade de vida.</p>
         <span class="servico-tag">Diferencial</span>
+      </div>
+      <div class="servico-card">
+        <span class="servico-icone">🩹</span>
+        <h3>Pacientes acamados e curativos</h3>
+        <p>Cuidados especializados para pacientes acamados, incluindo realização de curativos e prevenção de complicações.</p>
+        <span class="servico-tag">Especializado</span>
       </div>
       <div class="servico-card">
         <span class="servico-icone">📋</span>
         <h3>Período integral</h3>
-        <p>Atendimento 24 horas, ideal para idosos que necessitam de atenção constante e famílias que trabalham.</p>
+        <p>Atendimento 24 horas, ideal para idosos que necessitam de atenção constante e famílias que precisam de tranquilidade.</p>
         <span class="servico-tag">Sob consulta</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- DEPOIMENTOS -->
 <section class="depoimentos" id="depoimentos">
   <div class="container">
     <div class="secao-titulo">
@@ -930,34 +860,34 @@
     <div class="depoimentos-grid">
       <div class="depo-card">
         <div class="estrelas">★ ★ ★ ★ ★</div>
-        <p class="depo-texto">"[ Depoimento 1 ]"</p>
+        <p class="depo-texto">"A Larissa cuidou da minha mãe por quase um ano e nos deu uma tranquilidade que não tínhamos há muito tempo. Ela é pontual, carinhosa e sempre nos avisava de qualquer mudança no estado de saúde. Recomendo de olhos fechados."</p>
         <div class="depo-autor">
-          <div class="depo-avatar">[ ]</div>
+          <div class="depo-avatar">RS</div>
           <div>
-            <div class="depo-nome">[ Nome do familiar ]</div>
-            <div class="depo-rel">[ Filho(a) do paciente ]</div>
+            <div class="depo-nome">Ricardo S.</div>
+            <div class="depo-rel">Filho da paciente</div>
           </div>
         </div>
       </div>
       <div class="depo-card">
         <div class="estrelas">★ ★ ★ ★ ★</div>
-        <p class="depo-texto">"[ Depoimento 2. ]"</p>
+        <p class="depo-texto">"Profissional incrível. Meu pai é acamado e exige cuidados especiais — a Larissa soube lidar com toda a situação com muita competência e sensibilidade. A família ficou muito mais tranquila desde que ela começou a atender."</p>
         <div class="depo-autor">
-          <div class="depo-avatar">[ ]</div>
+          <div class="depo-avatar">AM</div>
           <div>
-            <div class="depo-nome">[ Nome do familiar ]</div>
-            <div class="depo-rel">[ Relação com o paciente ]</div>
+            <div class="depo-nome">Ana M.</div>
+            <div class="depo-rel">Filha do paciente</div>
           </div>
         </div>
       </div>
       <div class="depo-card">
         <div class="estrelas">★ ★ ★ ★ ★</div>
-        <p class="depo-texto">"[ Depoimento 3 ]"</p>
+        <p class="depo-texto">"Contratamos a Larissa para acompanhar nossa avó nas consultas e no dia a dia. Além de muito atenciosa, ela sempre trouxe um relatório claro do que acontecia. É raro encontrar alguém tão dedicada e humana nessa área."</p>
         <div class="depo-autor">
-          <div class="depo-avatar">[ ]</div>
+          <div class="depo-avatar">CM</div>
           <div>
-            <div class="depo-nome">[ Nome do familiar ]</div>
-            <div class="depo-rel">[ Relação com o paciente ]</div>
+            <div class="depo-nome">Camila M.</div>
+            <div class="depo-rel">Neta da paciente</div>
           </div>
         </div>
       </div>
@@ -965,6 +895,7 @@
   </div>
 </section>
 
+<!-- CONTATO -->
 <section class="contato" id="contato">
   <div class="container">
     <div class="contato-grid">
@@ -976,21 +907,21 @@
             <div class="contato-item-icone">📱</div>
             <div class="contato-item-texto">
               <strong>WhatsApp / Telefone</strong>
-              <span>[ (47) 9XXXX-XXXX ]</span>
+              <span>(48) 99688-4845</span>
             </div>
           </div>
           <div class="contato-item">
             <div class="contato-item-icone">📧</div>
             <div class="contato-item-texto">
               <strong>E-mail</strong>
-              <span>[ email@exemplo.com ]</span>
+              <span>lariwelter178@gmail.com</span>
             </div>
           </div>
           <div class="contato-item">
             <div class="contato-item-icone">📍</div>
             <div class="contato-item-texto">
-              <strong>Região de atendimento</strong>
-              <span>Itajai/SC e região</span>
+              <strong>Endereço</strong>
+              <span>Rua 442, Nº 669 — Morretes, Itapema/SC</span>
             </div>
           </div>
           <div class="contato-item">
@@ -1001,7 +932,7 @@
             </div>
           </div>
         </div>
-        <a href="https://wa.me/5547900000000" class="whatsapp-btn">
+        <a href="https://wa.me/5548996884845" class="whatsapp-btn">
           💬 Chamar no WhatsApp agora
         </a>
       </div>
@@ -1013,16 +944,17 @@
         </div>
         <div class="form-grupo">
           <label>Telefone / WhatsApp</label>
-          <input type="tel" placeholder="(47) 9XXXX-XXXX">
+          <input type="tel" placeholder="(48) 9XXXX-XXXX">
         </div>
         <div class="form-grupo">
           <label>Tipo de cuidado necessário</label>
           <select>
             <option value="">Selecione...</option>
-            <option>Cuidado diário (período)</option>
+            <option>Cuidados pessoais diários</option>
             <option>Plantão noturno</option>
             <option>Período integral</option>
             <option>Acompanhamento médico</option>
+            <option>Paciente acamado / curativos</option>
             <option>Outro</option>
           </select>
         </div>
@@ -1038,8 +970,8 @@
 
 <!-- FOOTER -->
 <footer>
-  <strong>Cuidados com Amor — [ Nome ]</strong>
-  <p>CNPJ [ 00.000.000/0001-00 ] · Cuidadora de Idosos · Itajai/SC</p>
+  <strong>Larissa Welter — Cuidadora de Idosos</strong>
+  <p>CNPJ 52.292.673/0001-66 · Rua 442, Nº 669, Morretes — Itapema/SC · (48) 99688-4845</p>
   <div class="footer-links">
     <a href="#inicio">Início</a>
     <a href="#sobre">Sobre</a>
@@ -1048,5 +980,6 @@
     <a href="#contato">Contato</a>
   </div>
 </footer>
+
 </body>
 </html>
